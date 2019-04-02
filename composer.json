@@ -3,7 +3,12 @@
     "description": "Graph library with algorithms",
     "type": "library",
     "require": {
-        "santoniothefirst/stack_and_queue": "^1.0.2"
+        "santoniothefirst/stack_and_queue": "^1.0.3"
+    },
+    "autoload": {
+        "psr-4":{
+            "SantonioTheFirst\\Graph\\" : "src/class/Graph/"
+        }
     },
     "license": "free",
     "authors": [

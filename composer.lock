@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1710e0d150155f8f62fa1a48d70e4bd8",
+    "content-hash": "042e11bf3f61b487f322f4688b24ef96",
     "packages": [
         {
             "name": "santoniothefirst/stack_and_queue",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SantonioTheFirst/stack_and_queue.git",
-                "reference": "79c2b5f2a775d016d889a742291e22d786018f45"
+                "reference": "4e0e1e29352d58bb3463d3431f6c7e0742f3c63c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SantonioTheFirst/stack_and_queue/zipball/79c2b5f2a775d016d889a742291e22d786018f45",
-                "reference": "79c2b5f2a775d016d889a742291e22d786018f45",
+                "url": "https://api.github.com/repos/SantonioTheFirst/stack_and_queue/zipball/4e0e1e29352d58bb3463d3431f6c7e0742f3c63c",
+                "reference": "4e0e1e29352d58bb3463d3431f6c7e0742f3c63c",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "SantonioTheFirst\\Structures\\": "class/"
+                    "SantonioTheFirst\\Structures\\": "src/class/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -36,7 +36,7 @@
                     "email": "santonio123@mail.ru"
                 }
             ],
-            "time": "2019-04-02T00:16:34+00:00"
+            "time": "2019-04-02T21:22:27+00:00"
         }
     ],
     "packages-dev": [],
