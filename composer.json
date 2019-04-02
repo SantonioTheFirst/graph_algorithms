@@ -1,0 +1,15 @@
+{
+    "name": "santoniothefirst/graph",
+    "description": "Graph library with algorithms",
+    "type": "library",
+    "require": {
+        "santoniothefirst/stack_and_queue": "^1.0.2"
+    },
+    "license": "free",
+    "authors": [
+        {
+            "name": "santoniothefirst",
+            "email": "santonio123@mail.ru"
+        }
+    ]
+}

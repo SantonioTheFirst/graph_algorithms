@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1710e0d150155f8f62fa1a48d70e4bd8",
+    "packages": [
+        {
+            "name": "santoniothefirst/stack_and_queue",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SantonioTheFirst/stack_and_queue.git",
+                "reference": "79c2b5f2a775d016d889a742291e22d786018f45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SantonioTheFirst/stack_and_queue/zipball/79c2b5f2a775d016d889a742291e22d786018f45",
+                "reference": "79c2b5f2a775d016d889a742291e22d786018f45",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SantonioTheFirst\\Structures\\": "class/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "santoniothefirst",
+                    "email": "santonio123@mail.ru"
+                }
+            ],
+            "time": "2019-04-02T00:16:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
