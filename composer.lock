@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "042e11bf3f61b487f322f4688b24ef96",
+    "content-hash": "6cec39a47c84abe137bf76a9bac812df",
     "packages": [
         {
             "name": "santoniothefirst/stack_and_queue",
-            "version": "v1.0.3",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SantonioTheFirst/stack_and_queue.git",
-                "reference": "4e0e1e29352d58bb3463d3431f6c7e0742f3c63c"
+                "reference": "fa261eeba77623ddabd8d5c1a20e0d7cbe6111fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SantonioTheFirst/stack_and_queue/zipball/4e0e1e29352d58bb3463d3431f6c7e0742f3c63c",
-                "reference": "4e0e1e29352d58bb3463d3431f6c7e0742f3c63c",
+                "url": "https://api.github.com/repos/SantonioTheFirst/stack_and_queue/zipball/fa261eeba77623ddabd8d5c1a20e0d7cbe6111fb",
+                "reference": "fa261eeba77623ddabd8d5c1a20e0d7cbe6111fb",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
                     "email": "santonio123@mail.ru"
                 }
             ],
-            "time": "2019-04-02T21:22:27+00:00"
+            "time": "2019-04-29T17:05:35+00:00"
         }
     ],
     "packages-dev": [],
