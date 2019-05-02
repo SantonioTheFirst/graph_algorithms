@@ -3,9 +3,9 @@
 namespace SantonioTheFirst\Algorithms\SearchAlgorithms;
 
 use SantonioTheFirst\Graph\Graph;
-use SantonioTheFirst\Structures\Stack;
+use SantonioTheFirst\Structures\Sequence;
 
-class DepthSearch
+class Search
 {
 
     /** @var Graph */
@@ -20,27 +20,25 @@ class DepthSearch
 
         $this->graph = $graph;
 
-//        $path = [];
 
     }
 
     /**
-     * @param string $node
+     * @param string $item
+     * @param Sequence $sequence
      * @return array
      */
-    public function Depth(string $node) : array
+    public function Search(string $item, Sequence $sequence) : array
     {
 
         $path = [];
 
-        $stack = new Stack();
+        $sequence->put($item);
 
-        $stack->put($node);
-
-        while(!$stack->isEmpty())
+        while(!$sequence->isEmpty())
         {
 
-            $currentElement = $stack->get();
+            $currentElement = $sequence->get();
 
             $path[$currentElement] = true;
 
@@ -49,9 +47,9 @@ class DepthSearch
 
                if(!$path[$node])
 
-                   if(!$stack->contains($node))
+                   if(!$sequence->contains($node))
 
-                       $stack->put($node);
+                       $sequence->put($node);
             }
 
         }
